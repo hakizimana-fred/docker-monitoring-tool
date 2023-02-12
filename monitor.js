@@ -1,17 +1,7 @@
 const CronJob = require("cron").CronJob;
 const os = require("os");
 const { exec } = require("child_process");
-const readline = require("readline");
 
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
-
-const COMMANDS = {
-  imageLs: "docker image ls",
-  volumeLs: "docker volume ls",
-};
 
 function main() {
   // Deleting both volumes and images
