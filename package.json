@@ -1,0 +1,19 @@
+{
+  "name": "docker-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 monitor.js",
+    "prettier": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "hakifred",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^2.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.4"
+  }
+}
